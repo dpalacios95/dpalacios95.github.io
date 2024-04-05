@@ -5,7 +5,7 @@ const ProjectsSection = () => {
     const projects = [
         {
             name: "Polyominoes",
-            url: import.meta.env.VITE_LINKEDIN_ACCOUNT + "polyominoes_exercise",
+            url: import.meta.env.VITE_GITHUB_ACCOUNT + "polyominoes_exercise",
             description: "Python exercise to calculate unique fixed polyominoes."
         }
     ]
