@@ -8,8 +8,8 @@ import SocialMediaLinks from './SocialMediaLinks';
 const Sidebar = () => {
 
     return (
-        <div className="sidebar h-screen flex-shrink top-[10vw] sm:left-[5vw] sm:fixed " >
-            < div className="contact-info-sidebar relative" >
+        <div className="sidebar top-[10vw] left-[5vw] flex-shrink flex-nowrap lg:fixed " >
+            < div className="contact-info-sidebar" >
                 <img src="./images/my_photo.jpg" alt="my_photo" className="my-photo rounded-full relative mx-auto my-[-4vw] w-52 h-52 object-cover" />
 
                 <div className='contact-info-container bg-white pt-[3rem] rounded-3xl' >

@@ -19,7 +19,7 @@ const ContactDetails = () => {
     let maxIndex = Object.keys(personalContactDetails).length - 1;
 
     return (
-        <div className="contact-details rounded-2xl bg-gray-100 sm:block">
+        <div className="contact-details rounded-2xl bg-gray-100 px-4">
             {
                 Object.entries(personalContactDetails).map(([k, v], index) => (
                     <ContactDetailRow key={k} fieldName={k} data={v} iconDef={icons[k]} addBorder={index !== maxIndex} />
